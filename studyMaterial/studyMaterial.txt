@@ -1,0 +1,33 @@
+Git it’s open sourced developed by Linus Torvalds, the famous creator of the Linux operating system kernel, in 2005.
+
+It's a Distributed Version Control System (VCS) that help software teams manage changes to source code over time. 
+
+Benefits: 
+
+- Change history of every file. 
+- Branching and merging. 
+- Traceability. 
+
+Some important concepts: 
+
+- Repository: documents at git’s that keep track the project history.
+- Commit: it's each one of the changes registered at git’s repository.
+- Branch: Represents an independent line of development. Pointers to commits.
+- Stashing: shelves (or stashes) changes you've made to your working copy so you can work on something else.
+- Hooks: scripts that Git executes when certain events occur in the repository. 
+
+Commond Commands:
+- git init --> creates a new Git repository.
+- git clone --> target an existing repository and create a clone.
+- git status --> displays the state of the working directory and the staging area.
+- git add . --> adds a change in the working directory to the staging area.
+- git commit --> captures a snapshot of the project's currently staged changes.
+- git rm  --> to remove individual files or a collection of files.
+- git branch --> create, list, rename, and delete branches.
+- git checkout --> command to visit a commit.
+- git push origin branch_name --> used to upload local repository content to a remote repository.
+- git pull origin branch_name --> used to fetch and download content from a remote repository and immediately update the local repository to match that content.
+- git merge branch_name --> lets you take the independent lines of development created by git branch and integrate them into a single branch.
+
+
+----------------------------------------------
