@@ -1,0 +1,26 @@
+Merging
+
+- Merging is Git's way of putting a forked history back together again. 
+Git merge will combine multiple sequences of commits into one unified history. 
+It takes the independent lines of development created by git branch and integrate them into a single branch. 
+
+- The current branch will be updated to reflect the merge, but the target branch will be completely unaffected unless the obsolete data is deleted. 
+If Git encounters a piece of data that is changed in both histories it will be unable to automatically combine them. 
+This scenario is a version control conflict and Git will need user intervention to continue.
+
+Rebasing 
+
+- t’s changing the base of your branch from one commit to another making it appear as if you'd created your branch from a different commit. 
+Rebase is the process of moving or combining a sequence of commits to a new base commit. 
+
+Git rebase vs git merge
+
+Git rebase and merge both integrate changes from one branch into another. Where they differ is how it's done. 
+Git rebase moves a feature branch into a master. Git merge adds a new commit, preserving the history. 
+Rebase merge all commits into one and merge maintains all the commits separately.  
+
+Squash
+
+- Combine multiple commits into one. It’s usually used when merging branches, by using Git’s interactive rebase. 
+Squashing commits is sometimes the preferred way to merge a feature branch back into a long-running branch like "master" or "main".
+
