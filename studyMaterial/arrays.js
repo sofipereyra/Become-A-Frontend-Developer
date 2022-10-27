@@ -81,12 +81,12 @@ console.log(otherThanLuke)
 //---------------------------------------------------------------------------------------------------------------------
 const array2 = [3, 56, 23, 5, 90, 100]
 //.reduce() ==> reduce it to a single value
-const sum1 = array2.reduce((accumulate, cur, i, arrayOriginal) => {
+const sum1 = array2.reduce((accumulate, cur, i, originalArr) => {
     console.log(accumulate)
     console.log(cur)
     console.log(i)
-    console.log(arrayOriginal)
-    return acumulado + cur
+    console.log(originalArr)
+    return accumulate + cur
 })
-const sum = array2.reduce((accumulate, cur, i, arrayOriginal) => accumulate + cur)
+const sum = array2.reduce((accumulate, cur, i, originalArr) => accumulate + cur)
 console.log(sum)
