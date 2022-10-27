@@ -1,5 +1,5 @@
 //*Array syntax
-const arr = [1,2,3,4,"hola",undefined,3,6,7];
+const arr = [1,2,3,4,"hi",undefined,3,6,7];
 const arr2 = new Array();
 
 //access values by position
@@ -42,8 +42,8 @@ console.log(arr.pop());
 console.log(arr);
 
 //.map() ==> Returns a new array containing the results of invoking a function on every element in the calling array.
-array = ["San Sebastián", "Madrid", "Barcelona", "Alicante", "Bilbao"]
-const newArray = array.map((valor, indice) => `${indice + 1} - ${valor}`)
+array = ["London", "Madrid", "Lima", "New York", "Bilbao"]
+const newArray = array.map((value, index) => `${index + 1} - ${value}`)
 console.log(newArray)
 
 //--------------------------------------------------------------------------------------------------------------------
