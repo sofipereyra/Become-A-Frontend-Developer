@@ -1,8 +1,8 @@
-## 📌Introductory Program Airont
+## 📌 Introductory Program Airont
 
 #  About 👇
 
-- Hi! I'm Sofi. This is a sumary of research on Git and JavaScript, you'll find what is it, how does it works, commond commands, proper syntax at my Handbook and links with more data. I hope you like it!
+- Hi! I'm Sofi. This is a sumary of research on Git and JavaScript, you'll find what it is, how does it works, common commands, proper syntax at my Handbook and links with more data. I hope you like it!
 - Project status: In progress
 
 #  Bibliography 🧷
