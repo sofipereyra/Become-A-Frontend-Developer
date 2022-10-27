@@ -48,7 +48,7 @@ console.log(newArray)
 
 //--------------------------------------------------------------------------------------------------------------------
 const arrOfNumbers = [4, 2, 5, 1]
-const arrOfStrings = ["adiós", "ciao","hola","bonjour"]
+const arrOfStrings = ["bye", "ciao","hello","bonjour"]
 //.concat() ==> Returns a new array that is the calling array joined with other array(s) and/or value(s).
 const arrCombined = arrOfNumbers.concat(arrOfStrings)
 console.log(arrCombined)
@@ -61,9 +61,9 @@ console.log(spreadSyntaxCombination)
 const arrObjects = [
     { name: "Leire", age: 35 },
      { name: "Gorka", age: 34 },
-     { name: "Miguel", age: 28 },
-     { name: "Lucía", age: 3 },
-    { name: "Amaia", age: 29}
+     { name: "Luke", age: 28 },
+     { name: "Liam", age: 3 },
+    { name: "Aly", age: 29}
 ]
 //.filter() ==> Returns a new array containing all elements of the calling array for which the provided filtering function returns true.
 const over30 = arrObjects.filter(obj => {
@@ -75,18 +75,18 @@ const over30 = arrObjects.filter(obj => {
 })
 const ageOver30 = arrObjects.filter(obj => obj.age > 30)
 console.log(ageOver30)
-const otherThanMiguel = arrObjects.filter(obj => obj.name !== "Miguel")
-console.log(otherThanMiguel)
+const otherThanLuke = arrObjects.filter(obj => obj.name !== "Luke")
+console.log(otherThanLuke)
 
 //---------------------------------------------------------------------------------------------------------------------
 const array2 = [3, 56, 23, 5, 90, 100]
 //.reduce() ==> reduce it to a single value
-const sum1 = array2.reduce((acumulado, cur, i, arrayOriginal) => {
-    console.log(acumulado)
+const sum1 = array2.reduce((accumulate, cur, i, arrayOriginal) => {
+    console.log(accumulate)
     console.log(cur)
     console.log(i)
     console.log(arrayOriginal)
     return acumulado + cur
 })
-const sum = array2.reduce((acumulado, cur, i, arrayOriginal) => acumulado + cur)
+const sum = array2.reduce((accumulate, cur, i, arrayOriginal) => accumulate + cur)
 console.log(sum)
