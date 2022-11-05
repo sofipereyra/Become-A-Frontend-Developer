@@ -8,7 +8,6 @@ const constVariable = "constant";
 variable = 2;
 letVariable = "Sofi";
 
-
 //*defining functions
 //function declaration
 function firstFunction (){
@@ -24,3 +23,6 @@ const f = function(param){
 const arrowFn = (param) => {
     //statement
 }
+
+
+

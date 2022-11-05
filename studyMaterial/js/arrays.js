@@ -79,14 +79,14 @@ const otherThanLuke = arrObjects.filter(obj => obj.name !== "Luke")
 console.log(otherThanLuke)
 
 //---------------------------------------------------------------------------------------------------------------------
-const array2 = [3, 56, 23, 5, 90, 100]
+const arr3 = [3, 56, 23, 5, 90, 100]
 //.reduce() ==> reduce it to a single value
-const sum1 = array2.reduce((accumulate, cur, i, originalArr) => {
+const sum1 = arr3.reduce((accumulate, cur, i, originalArr) => {
     console.log(accumulate)
     console.log(cur)
     console.log(i)
     console.log(originalArr)
     return accumulate + cur
 })
-const sum = array2.reduce((accumulate, cur, i, originalArr) => accumulate + cur)
+const sum = arr3.reduce((accumulate, cur, i, originalArr) => accumulate + cur)
 console.log(sum)

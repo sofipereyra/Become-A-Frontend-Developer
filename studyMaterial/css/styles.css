@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    
+}
+.navbar ul{
+    display: flex;
+    justify-content: center;
+}
+.navbar ul li{
+    padding: 1rem;
+    list-style: none;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#section1 {
+    width: 70%;
+}
+#section1 article{
+    padding: 1.5rem;
+    text-align: justify;
+}
+
+#sidebar{
+    padding: 2rem;
+}
+#sidebar section{
+    padding: 0.8rem;
+}
+#sidebar section ul li{
+    list-style: none;
+}
+#sidebar section ul li a{
+    text-decoration: none;
+    color: rgb(255, 0, 8);
+}
+
+#footer{
+    text-align: center;
+}
+#footer ul li{
+    padding: 0.5rem;
+}
