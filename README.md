@@ -2,7 +2,7 @@
 
 #  About 👇
 
-- Hi! I'm Sofi. I'm doing research on how to become a Front End Developer. Here you have a summary with information about HTML, JavaScript and Git. You'll find what it is, how does it work, common commands, proper syntax at my Handbook and links with more data. I hope you like it!
+- Hi! I'm Sofi. I'm doing research on how to become a Front End Developer. Here you have a summary with information about HTML, CSS, JavaScript and Git. You'll find what it is, how does it work, common commands, proper syntax at my Handbook and links with more data. I hope you like it!
 - Project status: In progress...
 
 #  Bibliography 🧷
@@ -22,6 +22,15 @@ HTML
 - [Metadata](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML)
 - [SEO](https://developer.mozilla.org/en-US/docs/Glossary/SEO)
 - [Accessibility](https://www.w3.org/standards/webdesign/accessibility)
+
+CSS
+- [Cascade and inheritance](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Cascade_and_inheritance)
+- [Selectors](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors)
+- [Box Model](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model)
+- [Layout](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout)
+- [Media Queries](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries)
+- [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+- [Grids](https://css-tricks.com/snippets/css/complete-guide-grid/)
 
 JavaScript
 - [Guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
