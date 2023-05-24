@@ -7,6 +7,9 @@
 
 #  Bibliography 🧷
 
+Agile Methodologies --> SCRUM
+- [Scrum guide - 2020](https://drive.google.com/file/d/19pxoUGGJ8Z0VNZOnmlDJeDg_BmxAHs2D/view?usp=sharing)
+
 GIT
 - [Git Syncing](https://www.atlassian.com/git/tutorials/syncing)
 - [Git Branching](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging)
