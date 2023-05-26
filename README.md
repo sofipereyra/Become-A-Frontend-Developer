@@ -2,7 +2,7 @@
 
 #  About 👇
 
-- Hi! I'm Sofi. I'm doing research on how to become a Front End Developer. Here you have a summary with information about HTML, CSS, JavaScript and Git. You'll find what it is, how does it work, common commands, proper syntax at my Handbook and links with more data. I hope you like it!
+- Hi! I'm Sofi. I'm doing research on how to become a Front End Developer. Here you have a summary with information about SCRUM, HTML, CSS, JavaScript and Git. You'll find what it is, how does it work, common commands, proper syntax at my Handbook and links with more data. I hope you like it!
 - Project status: In progress...
 
 #  Bibliography 🧷
